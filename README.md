@@ -4,9 +4,9 @@
 
 En esta práctica se ha desarrollado una **API** que implementa la clase **Carrito**.
 
-Cada carrito contiene **un único producto** (simplificación del modelo).
+Cada carrito contiene **un único producto**.
 
-## Funcionalidad implementada
+## Funciones
 
 La aplicación permite:
 
@@ -18,7 +18,7 @@ La aplicación permite:
 
 El precio final del carrito se **calcula automáticamente** en función del número de unidades y un precio unitario aleatorio.
 
-## Modelo de datos
+## Clase carrito
 
 La **Carrito** contiene los siguientes campos:
 
@@ -28,7 +28,7 @@ La **Carrito** contiene los siguientes campos:
 - `unidades`: número de unidades del artículo.
 - `precioFinal`: importe final del carrito (calculado automáticamente).
 
-Se han utilizado **validaciones** para garantizar la integridad de los datos (`@NotBlank`, `@NotNull`).
+Se han utilizado **validaciones** (`@NotBlank`, `@NotNull`).
 
 ## Endpoints principales
 
