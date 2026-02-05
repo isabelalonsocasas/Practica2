@@ -38,4 +38,4 @@ Se han utilizado **validaciones** para garantizar la integridad de los datos (`@
 - `PUT /api/carrito/{idCarrito}/unidades/{unidades}` → Actualizar unidades
 - `DELETE /api/carrito/{idCarrito}` → Eliminar carrito
 
-La aplicación utiliza almacenamiento en memoria mediante un `HashMap`.
+La aplicación utiliza un `HashMap` para guardar los diferentes carritos.
